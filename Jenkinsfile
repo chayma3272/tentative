@@ -5,7 +5,7 @@ pipeline {
     }
     
     environment {
-        IMAGE = 'zayneeb/monapp'
+        IMAGE = 'chayma9/test'
         TAG = "build-${env.BUILD_NUMBER}" // Chaque build a un tag unique
     }
 
